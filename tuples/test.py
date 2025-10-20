@@ -1,13 +1,14 @@
-#Count the occurence of a particular element in a list
+#given a list of integers stort the numbers in either ascending or descending order
 
-import math
+my_list=[1,2,3,4,5,6]
 
-my_list=[1,2,2,2,2,3,4,5,6]
+ascending_list=sorted(my_list)
 
-my_count=my_list.count(2)
+descending_list=sorted(my_list, reverse=True)
 
-print(f"2 appears : {my_count}")
-        
+print(descending_list)
+
+print(ascending_list)
     
 
 
