@@ -1,5 +1,8 @@
-my_set={1,2,3,4}
+#Given a set of elements remove a random element and print both the element and the updated element
 
-my_set.remove(4)
+numbers = {10, 20, 30, 40, 50}
 
-print(my_set)
+
+print(numbers.pop())
+
+print(numbers)

@@ -78,4 +78,4 @@ list.clear()->This removes all the elements in a list
 
 list.index("element")->This returns the index of the particular element
 
-
+my_list.sort()->This returns none , because it does the all the sorting in place, while sorted(my_list), does the actual job
