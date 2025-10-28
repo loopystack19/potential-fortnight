@@ -28,6 +28,7 @@ for question in questions:
     for option in options[question_num]:
         print(option)
     guess=input("Choose A, B, C OR D: ").upper()
+    print("--------------------------------")
     if guess == answers[question_num]:
         print("CORRECT")
         score+=1
