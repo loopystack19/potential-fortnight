@@ -58,5 +58,3 @@ check_num()
 
     
 #Note that functions are able to accept actual arguements when parameters are included during the initialization process
-
-bax ax jgaxvjhaxjha jXVJAjaJVJajhaHJaxXJaxvjXVJHA

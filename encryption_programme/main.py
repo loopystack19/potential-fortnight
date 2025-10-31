@@ -1,29 +1,25 @@
-# A simple encryption programme in python
-
 import random
 
 import string
 
-chars="" + string.punctuation + string.digits + string.ascii_letters  
+chars=string.digits + string.punctuation + string.ascii_letters + " "
 
-chars=list(chars)
+chars_list=list(chars)
 
-key=chars.copy()
-
-random.shuffle(key)
-
-#This is where the encryption will be taking place 
-
-plain_text=input("Enter the message that you would like encrypted: ")
+plain_text=input("Enter the message that you would like to encrypt: ")
 
 cipher_text=""
 
+key=chars_list.copy()
+
+random.shuffle(key)
 
 for letter in plain_text:
-    if letter in chars:
-        index=chars.index(letter)
-        cipher_text+=key[index]
+    index=chars.index(letter)
+    cipher_text+=key[index]
     
-print(f"This is the plain_text {plain_text}")
+print(plain_text)
 
-print(f"This is the encrypted message: {cipher_text}")
+print(cipher_text)
+    
+    
